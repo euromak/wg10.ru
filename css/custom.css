@@ -1,0 +1,196 @@
+/*header*/
+header{
+	width:100%;
+	background: rgba(0,0,0,.2);
+	color:white;	
+	font-size: 15px;	
+	position: absolute;
+	z-index:10;
+
+}
+
+
+.logotip {
+	width: 50% !important;
+}
+@media (max-width: 576px){
+	.logotip {
+	width: 100% !important;
+}
+}	
+.header-top{
+	border-color:rgba(255,255,255,.1);
+}
+.top-bar-content{
+	width:100%;
+	text-align: right;
+	padding:10px 15px;
+	font-weight:bold;
+}
+#top-bar-text span{
+	padding-right:15px;
+	padding-left:5px;	
+}
+
+.header-menu > ul > li > a{
+	font-weight:500;
+}
+.slide-content-inner h2{
+	color:#E41613;
+	text-shadow: 1px 1px 2px black;
+}
+.fa-bars {
+	color: white;
+}
+.tel-and-mail{
+	font-weight:bold;	
+}
+.tel-and-mail i{
+	padding-left:10px;
+	padding-right:5px;
+}
+.header-menu ul li a:hover{
+	color:#FFBC00;
+}
+@media screen and (max-width:1200px){	
+	.tel-and-mail{
+		font-size:14px;
+	}
+}
+@media screen and (max-width:992px){
+	.header-top{
+		display:none;
+	}	
+	.tel-and-mail span{
+		display:block;
+	}
+	.header-menu > ul{
+		left: -500% !important;
+		width: calc(600%) !important;
+		top: 44px !important;		
+	}
+}
+@media screen and (min-width:993px){	
+	.tel-and-mail{
+		display:none;
+	}
+}
+/*Стили для call-to-action*/
+.call-to-action{
+	background:#FFC925;
+	padding: 32px 0;
+}
+.call-to-action .row div{
+	text-align: center;
+}
+.call-to-action .row div h2{
+	color:black;
+	font-size:20px;
+	font-weight: 400;
+	line-height:200%;
+}
+.call-to-action .btn::before{
+    background:#BF001F;
+}
+/*blog*/
+.latest-news-wraper .latest-news-wraper-batten{
+	color:black;
+	font-weight:700px;
+}
+.btn-white {
+	color: white;
+}
+
+/*line-style*/
+.line-style{
+	background:#ffc925;
+	height: 3px;
+	width: 60px;
+	margin-top: -8px;
+	margin-bottom: 30px;
+}
+
+
+
+/*Каталог*/
+.section-katalog{
+	background-image: url("../img/bg6.jpg");	
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.section-katalog .single-package{
+	border:none;
+}
+.row-catalog{
+	margin-bottom:50px;
+}
+.single-package-katalog{
+	background:#fff;
+}
+.single-package-katalog span{	
+	display:block;
+}
+.single-package-katalog img{
+	margin-bottom:20px;	
+}
+.single-package-katalog h4{
+	margin-bottom:20px;
+}
+@media screen and (max-width:992px){
+	.section-katalog{
+	background-color: black!important;
+	}
+}
+
+	
+/*Страницы каталогов*/
+.catalog-page p{
+	text-align:justify;
+}
+.catalog-page-img{
+	width:50% !important; 
+	margin: 0 20px 10px 0 !important; 
+	float:left !important;
+}
+@media screen and (max-width:768px){
+	.catalog-page-img{
+		width:100% !important; 
+		margin:0 0 30px !important;		
+		float:none !important;
+	}
+}
+	
+/*Страницы каталога последнего уровня*/
+.product-details-h1{
+	line-height: 1.3;
+}
+.product-variations-for-js1{
+	cursor:pointer;
+}
+
+/*Стили хлебных крошек*/
+.hlebn-kros a{
+	color:black;	
+}
+.hlebn-kros a:hover{
+	color:#ffc925;
+}
+
+.catalog-second-stage-text {
+	font-size: 0.9em;
+}
+
+
+/*Оформление формы обратной связи*/
+::-webkit-input-placeholder {
+    color: #777 !important;
+}
+:-moz-placeholder{ 
+    color: #777 !important; 
+}
+::-moz-placeholder {
+    color: #777 !important;
+}
+:-ms-input-placeholder {  
+    color: #777 !important; 
+}
